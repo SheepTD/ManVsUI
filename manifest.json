@@ -1,0 +1,39 @@
+{
+    "manifest_version": 3,
+    "name": "Man Vs UI",
+    "version": "1.0",
+    "description": "Gives Mr Plant's manvsmaths.com a fresh new look and added customizability!",
+    "permissions": [
+      "activeTab",
+      "storage",
+      "tabs",
+      "webNavigation",
+      "scripting"
+    ],
+    "action": {
+      "default_popup": "popup/popup.html",
+      "default_icon": {
+        "16": "images/icon16.png",
+        "32": "images/icon32.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+      }
+    },
+    "icons": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://manvsmaths.com/*"],
+        "js": ["scripts/content.js"],
+        "run_at": "document_end"
+      }
+    ],
+    "background": {
+      "service_worker": "scripts/background.js"
+    }
+}
+  

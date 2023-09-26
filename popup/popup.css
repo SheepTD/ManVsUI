@@ -1,0 +1,23 @@
+:root {
+    --background: #393e46;
+    --text: #ffffff;
+    --primary: #33ca02;
+    --secondary: #242a33;
+    --visited: #6e0093;
+}
+
+body {
+    width: 200px;
+    background: var(--secondary);
+    color: var(--text);
+}
+h1 {
+    color: var(--primary);
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input:focus {
+    border: var(--primary);
+}
