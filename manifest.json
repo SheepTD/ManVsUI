@@ -1,12 +1,11 @@
 {
     "manifest_version": 3,
     "name": "Man Vs UI",
-    "version": "1.0",
+    "version": "1.01",
     "description": "Gives Mr Plant's manvsmaths.com a fresh new look and added customizability!",
     "permissions": [
       "activeTab",
       "storage",
-      "tabs",
       "webNavigation",
       "scripting"
     ],
