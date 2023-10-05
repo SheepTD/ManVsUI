@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Man Vs UI",
-    "version": "1.01",
+    "version": "1.02",
     "description": "Gives Mr Plant's manvsmaths.com a fresh new look and added customizability!",
     "permissions": [
       "activeTab",
@@ -26,7 +26,7 @@
     },
     "content_scripts": [
       {
-        "matches": ["https://manvsmaths.com/*"],
+        "matches": ["https://manvsmaths.com/*", "https://www.manvsmaths.com/*"],
         "js": ["scripts/content.js"],
         "run_at": "document_end"
       }
