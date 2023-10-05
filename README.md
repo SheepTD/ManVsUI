@@ -7,5 +7,5 @@ It was created to remedy Mr Plant's questionable web design skills and give his 
 For those of you who are pretty tech savy and want to give this extension your own spin, feel free to download the raw files from this repository 
 and edit the stylesheets to your hearts content. As long as you don't edit the names of the stylesheets, it should still work perfectly fine.
 
-As of today (28/09/2023) the extension is unlisted on the chrome web store and is only accessible via this link:
+As of today (28/09/2023) the extension is on the chrome web store and you can find it at the following link:
 https://chrome.google.com/webstore/detail/man-vs-ui/iphelmgbfmmafccgkjjgppkfpnemenap?hl=en-GB&authuser=3
